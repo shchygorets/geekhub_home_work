@@ -84,9 +84,9 @@
 		5723A5E51A1A31DB002A1417 /* TableViewHomeWork2 */ = {
 			isa = PBXGroup;
 			children = (
-				5723A5EA1A1A31DB002A1417 /* AppDelegate.h */,
 				5723A60E1A1A3220002A1417 /* ViewController.h */,
 				5723A60C1A1A3206002A1417 /* VSTableViewController.m */,
+				5723A5EA1A1A31DB002A1417 /* AppDelegate.h */,
 				5723A60F1A1A3242002A1417 /* AppDelegate.m */,
 				5723A5ED1A1A31DB002A1417 /* ViewController.h */,
 				5723A5EE1A1A31DB002A1417 /* ViewController.m */,
