@@ -34,7 +34,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"Cars";
+    //self.title = @"Cars";
     
     NSArray *german = [NSArray arrayWithObjects:@"Mercedes", @"BMW", @"Audi", nil];
     NSArray *japan = [NSArray arrayWithObjects:@"Toyota", @"Honda", @"Mazda", nil];

@@ -15,6 +15,7 @@
 		573373C21A18F70300688F41 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573373C01A18F70300688F41 /* LaunchScreen.xib */; };
 		573373CE1A18F70300688F41 /* TableViewHomeWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 573373CD1A18F70300688F41 /* TableViewHomeWorkTests.m */; };
 		573373DA1A18FB1C00688F41 /* VSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573373D91A18FB1C00688F41 /* VSTableViewController.m */; };
+		57B9F8DA1A1937A100F3935B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B9F8D91A1937A100F3935B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		573373CD1A18F70300688F41 /* TableViewHomeWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewHomeWorkTests.m; sourceTree = "<group>"; };
 		573373D81A18FB1C00688F41 /* VSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTableViewController.h; sourceTree = "<group>"; };
 		573373D91A18FB1C00688F41 /* VSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTableViewController.m; sourceTree = "<group>"; };
+		57B9F8D91A1937A100F3935B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		573373A51A18F70300688F41 = {
 			isa = PBXGroup;
 			children = (
+				57B9F8D91A1937A100F3935B /* Default-568h@2x.png */,
 				573373B01A18F70300688F41 /* TableViewHomeWork */,
 				573373CA1A18F70300688F41 /* TableViewHomeWorkTests */,
 				573373AF1A18F70300688F41 /* Products */,
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				573373BD1A18F70300688F41 /* Main.storyboard in Resources */,
+				57B9F8DA1A1937A100F3935B /* Default-568h@2x.png in Resources */,
 				573373C21A18F70300688F41 /* LaunchScreen.xib in Resources */,
 				573373BF1A18F70300688F41 /* Images.xcassets in Resources */,
 			);
@@ -418,6 +422,7 @@
 				573373D31A18F70300688F41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		573373D41A18F70300688F41 /* Build configuration list for PBXNativeTarget "TableViewHomeWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				573373D61A18F70300688F41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
