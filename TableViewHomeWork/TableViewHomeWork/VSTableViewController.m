@@ -11,6 +11,7 @@
 
 #define titleGerman @"German Cars"
 #define titleJapan @"Japan Cars"
+#define titleFrench @"French Cars"
 
 
 @interface VSTableViewController ()
@@ -20,6 +21,7 @@
 @end
 
 @implementation VSTableViewController
+
 
 @synthesize cars;
 
@@ -36,8 +38,9 @@
     
     NSArray *german = [NSArray arrayWithObjects:@"Mercedes", @"BMW", @"Audi", nil];
     NSArray *japan = [NSArray arrayWithObjects:@"Toyota", @"Honda", @"Mazda", nil];
+    NSArray *french = [NSArray arrayWithObjects:@"Renault", @"Citroen", @"Peugeot", nil];
     
-    self.cars = [NSDictionary dictionaryWithObjectsAndKeys:german, titleGerman, japan, titleJapan, nil];
+    self.cars = [NSDictionary dictionaryWithObjectsAndKeys:german, titleGerman, japan, titleJapan, french, titleFrench, nil];
     
    }
 
